@@ -145,7 +145,12 @@ nav a:hover{
 
 
 }
-
+.welcome-text{
+    a{
+        font-weight: bold;
+        color: white;
+    }
+}
 .explore-now {
     position: absolute;
     top: 70%;
@@ -276,12 +281,13 @@ h2 {
         width: 40vw;
         color: #0f0b14;
         font-family: ku;
+        font-size: x-large;
     }
 }
 
 .curated_books {
     width: 70vw;
-    margin: 10vh auto;
+    margin: 5vh auto;
 
 }
 
@@ -306,6 +312,11 @@ h2 {
         text-align: center;
 
     }
+}
+#pinterest{
+p{
+    color: #0f0b14;
+}
 }
 .book_detail:hover{
     cursor: pointer;
@@ -366,6 +377,13 @@ scroll-behavior: smooth;}
 .discover {
 
     width: 40vw;
+    p{
+        text-align: justify;
+    }
+    a{
+        color: white;
+        font-weight: bold;
+    }
 
 
 }
@@ -401,11 +419,13 @@ scroll-behavior: smooth;}
 }
 
  /* footer */
+ 
+ 
 footer {
     padding-top: 3vh;
     height: 35vh;
     width: 100vw;
-    background-color: #0f0b14;
+    background-color: #2d1a38;
 
     a {
         color: white;
@@ -445,35 +465,85 @@ form{
     width: 25vw;
     height: 5vh;
 }
-.join-us label{
-    font-family: nunito;
-}
 .join-us button{
     cursor: pointer;
     width: 10vw;
     height: 5vb;
 }
 .join-us button:hover{
-    background-color: #234457;
     color: white;
 }
+@media (max-width: 750px){
+    body{
+        width: 100vw;
+    }
+    .advert{
+       padding: 0.5%;
+        p{
 
+        font-size: small;
+       }
+    }
+    nav{
+        position: fixed;
+    }
+    .navigation{
+        a{
+            font-size: small;
+        }
+        
+    }
+    .welcome{
+        padding-top: 10vh;
+        h1{
+            font-size: medium;
+        }
+    }
+    .welcome-text{
+       
+        h2{
+            width: 100vw;
+            font-size: medium;
+            top: 70vh;
+        }
 
+    }
+    .curated_list {
+        h2{
+            font-size: x-large;
+        }
+        p{
+            font-size: 16px;
+            width: 100vw;
+        }
+    }
+    #pinterest{
+        font-size: x-small;
+    }
+   
+.book_detail{
+    width: 50vw;
+}
+.discover {
+    width: 80vw;
+    margin: auto;
+    h2{
+        font-size: x-large;
+    }
+    p{
+        font-size: 16px;
+        
+    }
+    .discover_container {
+        width: ;
+        
+    }
+    .comment-detail{
+        width: 70vw;
 
+        p{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
- 
+        }
+    }
+}
+}

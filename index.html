@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="index.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>Books Rookie Blogs</title>
 </head>
@@ -47,16 +50,17 @@
             </h1>
         </div>
         <div class="welcome-text">
-            <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.</h2>
+            
+            <h2> Hey, my name is Arsema. My goal is to keep track of lessons I learned in books and share it to the world as well, on the side I recommend books for beginners in genres of mystery, biblography, true crime, self-help and more.   </h2>
         </div>
         <div class="explore-now">
             <button onclick="home()" type="button">Explore Now</button>
 
         </div>
-
     </div>
+    <p style="color: black;">pinterest.com</p>
+
+    
 
     <section>
 
@@ -64,56 +68,64 @@
         <div class="curated_list" id="curated_list">
             <h2>Explore my Curated List</h2>
             <p>
-                Books recommendation for book rookies who plan on exploring and discovering worlds inside books.
+                Book recommendations for book rookies who plan on exploring and discovering worlds inside books.
             </p>
         </div>
-        <div class="curated_books_list">
+        <div class="curated_books_list" onclick='born_crime()'>
             <div class="curated_books">
                 <div class="book_detail">
-                    <a href="">
+                    <a href="https://pursuitofdiversity.wordpress.com/wp-content/uploads/2018/06/born-a-crime-trevor-noah.pdf">
                         <img
                             src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1473867911i/29780253.jpg">
                     </a>
                     <div>
                         <h3>Born a Crime</h3>
                         <h4>by Trevor Noah</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the
-                            industry's.</p>
+                       
+                    </div>
+
+                </div>
+            </div>
+            <div class="curated_books" onclick="homeGoing()">
+                <div class="book_detail">
+                    <a href="https://downloads.bbc.co.uk/radio4/open-book/9780241242735_homegoing_txt.pdf">
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvCeMsjoOCkEChJE1-a8Ha-33R6m31qE4g7cQp6br-AgqP3Zcz">
+                    </a>
+                    <div>
+                        <h3>Homegoing</h3>
+                        <h4>by Yaa Gyassi</h4>
+                       
                     </div>
 
                 </div>
             </div>
 
-            <div class="curated_books">
+            <div class="curated_books" onclick="nineteen()">
                 <div class="book_detail">
-                    <a href="">
+                    <a href="https://www.planetebook.com/free-ebooks/1984.pdf">
                         <img
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK2W10ojIn-aJ3iiCL9bW2kBGUKOJa-xJk4g&s">
                     </a>
                     <div>
                         <h3>Nineteen Eighty-Four</h3>
                         <h4>by George Orwell</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the
-                            industry's.</p>
+                        
                     </div>
 
                 </div>
             </div>
 
-            <div class="curated_books">
+            <div class="curated_books" onclick="things()">
                 <div class="book_detail">
-                    <a href="">
+                    <a href="https://www.centralschool.edu.vu/uploads/1/1/4/4/114402701/things-fall-apart.pdf">
                         <img
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDOti-IDwqVTj6YLDfz5F4v9yiG2v6QvqVXg&s">
+                            src="https://upload.wikimedia.org/wikipedia/en/6/65/ThingsFallApart.jpg">
                     </a>
                     <div>
                         <h3>Things Fall Apart</h3>
                         <h4>by Chinua Achbe</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the
-                            industry's.</p>
+                       
                     </div>
 
                 </div>
@@ -121,36 +133,31 @@
 
             
 
-            <div class="curated_books">
+            <div class="curated_books" onclick="whomoved()">
                 <div class="book_detail">
-                    <a href="">
+                    <a href="https://medium.com/@joaomoliveira.gomes/who-moved-my-cheese-by-dr-spencer-johnson-book-review-f1adba4ecec3">
                         <img
-                            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630664059i/6596.jpg">
+                            src="https://eys.co.ke/wp-content/uploads/2023/12/9780091816971.jpg">
                     </a>
                     <div>
                         <h3>Who Moved My Cheesee?</h3>
                         <h4>by Kevin Davis</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the
-                            industry's.</p>
+                        
                     </div>
 
                 </div>
             </div>
 
-            <div class="curated_books">
+            <div class="curated_books" onclick="hunger()">
 
-                <div class="book_detail">
-                    <a href="">
+                <div class="book_detail" >
+                    <a href=" https://online.fliphtml5.com/elbz/nodb/#p=1">
                         <img
-                            src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630664059i/6596.jpg">
+                            src="https://upload.wikimedia.org/wikipedia/en/d/dc/The_Hunger_Games.jpg">
                     </a>
                     <div>
                         <h3>The Hunger Games</h3>
                         <h4>by Kevin Davis</h4>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the
-                            industry's.</p>
                     </div>
 
                 </div>
@@ -169,12 +176,8 @@
     <div class="discover_container">
         <div class="discover">
             <h2>Discover RookieReads</h2>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                scrambled it to make a type specimen book.</p>
+            <p>Well hello, how are you? I am Arsema A. Gebremichael. I started RookieReads to keep lessons from books I read and share my toughts on books and to influence "Rookies", new readers who are looking for books to read. If you are interested in joining a community <a href="https://bookreviewsbookclub.netlify.app/">click here.</a>  
+            </p>
         </div>
         <div>
             <img src="" alt="">
@@ -200,7 +203,7 @@
             </a>
             <div>
 
-                <p>It's a beutiful...</p>
+                <p></p>
             </div>
 
 
@@ -234,13 +237,16 @@
             </form>
         </div>
         <div id="socials">
-            <p>© 2025 by Read Reviews. Powered and secured by AkiraChix</p>
-
-            <a href="https://x.com/akirachix"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.facebook.com/AkiraChix/"><i class="fa-brands fa-facebook-f"></i></a>
-            <a href="https://www.linkedin.com/company/akirachix/mycompany/?viewAsMember=true"><i
+            <p>© 2025 by RookieReads. Powered and secured by AkiraChix.</p>
+            <a href="https://x.com/a_gebremic91468?s=21"><i class="fa-brands fa-x-twitter"></i></a>
+            <a
+                href="https://www.linkedin.com/in/arsema-gebremichael-aa387935a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i
                     class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://www.youtube.com/@AkiraChixKenya"><i class="fa-brands fa-youtube fa-2xl"></i></a>
+            <a href="https://www.facebook.com/share/16SPFvbRJ1/?mibextid=wwXIfr"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a
+                href="https://www.instagram.com/arsemaaregawi?igsh=MW82dXRjN3NyNWhtMQ==&utm_source=ig_contact_invite"><i
+                    class="fa-brands fa-instagram"></i></a>
         </div>
     </footer>
 </body>

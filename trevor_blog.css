@@ -511,64 +511,22 @@ form{
     .blog p{
         font-size: 15px;
         font-style: italic;
-     }
+    }
      
      
-     .likeOurPage{
-        display: flex;
-        justify-content: space-between;
-        font-size: medium;
-        align-items: center;
-        font-family: ku;
-     }
-     .likeOurPage a{
-        text-decoration: none;
-        color: #A61F2B;
-        font-size: small;
-     }
-     .likeOurPage a :hover{
-        background-color: orange;
-        cursor: pointer;
-     }
-     #comment{
-        font-size: 1em;
-        text-align: center;
-     }
-     #input{
-    width: 80%;
-        text-align: center;
-        padding: 2em;
-      
-     }
-     #submit{
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 1.5em;
-        width: 13em;
-        background-color: #234457;
-        border: none;
-        border-radius: 1em;
-        margin-top: 9em;
-        text-align: center;
-        cursor: pointer;
-        color: white;
-        
-       
-     }
-     #submit:hover{
-        background-color: #A61F2B;
-        color: white
-     }
+
+     
+     
+     
      
     
     
      
-    footer {
+    /* footer {
         padding-top: 3vh;
         height: 40vh;
         width: 100vw;
-        background-color: #17242b;
+        background-color: #0491dd;
     
         a {
             color: white;
@@ -581,9 +539,9 @@ form{
             text-align: center;
         }
     
-    }
+    } */
     
-    #socials {
+    /* #socials {
         width: 100%;
         position: absolute;
         padding-top: 33vh;
@@ -594,7 +552,7 @@ form{
         align-items: center;
         font-size: small;
         
-    }
+    } */
     
     form{
         position: absolute;
@@ -614,80 +572,5 @@ form{
         width: 13vw;
         height: 5vb;
     }
-    .join-us button:hover{
-        background-color: #234457;
-        color: white;
-    }}
-    @media (min-width: 751px) and (max-width: 999px)  {
- .body-section{
-    width: 70vw;
- }
- .blog-info{
-    p{
-        width: 59vw;
-    }
- }
-  
-        .advert{
-            height: 6vh;
-          }
-        
-          .blog-image{
-img{
-    width: 70vw;
-}
-
-          }
-          .excerpt{
-            p{
-                width: 60vw;
-            }
-          }
-            .socials{
-                margin-left: 5em;
-            }
-            footer{
-                height: 45vh;
-            }
-            #socials{
-                font-size: small;
-            }
-            form{
-                position: absolute;
-                transform: translate(-50%, -50%);
-                left: 50vw;
-                padding-top: 20vh;
-                font-size: large;
-                color: white;
-            }
-            input{
-                margin-top: 1vh;
-            }
-            #submit{
-                margin-top: 20vh;
-            }
-            #socials{
-        
-                font-size: small;
-                padding-top: 40vh;
-            }
-
-            
- }
-
-   
- @media (min-width: 1000px) and (max-width: 1300px)  {
- 
-  .advert{
-    height: 6vh;
-  }
-
-    .socials{
-        margin-left: 2em;
-    }
-    footer{
-        height: 45vh;
-    }
-   
     
- }
+   
