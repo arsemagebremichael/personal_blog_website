@@ -30,6 +30,45 @@ src: url(style.css);
 }
 
 
+.advert {
+    font-family: nunito;
+    background-color: #0f0b14;
+    width: 100vw;
+    color: white;
+    padding: 0.5vh;
+    font-size: medium;
+    text-align: center;
+    margin-top: auto;
+    align-items: center;
+    z-index: 10;
+}
+
+nav {
+    z-index: 10;
+    position: fixed;
+    margin: auto;
+    a{
+        font-family: nunito;
+        text-decoration: none;
+        color: #0f0b14;
+        margin-left: 5vw;
+        text-align: center;
+        z-index: 2;
+    }
+  
+
+}
+nav a:hover{
+    color: gray
+}
+.navigation{
+
+    background-color: white;
+    padding: 1vh;
+    width: 100vw;
+    text-align: center;
+}
+
 
 
 
@@ -39,6 +78,7 @@ src: url(style.css);
 /*  */
 
 .body-section{
+    padding-top: 15vh;
     margin: auto;    
 }
 section{
