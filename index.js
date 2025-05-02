@@ -8,3 +8,7 @@ function who_moved(){
     window.location.href = 'https://pursuitofdiversity.wordpress.com/wp-content/uploads/2018/06/born-a-crime-trevor-noah.pdf';
   
   }
+  function home(){
+    window.location.href = 'trevor_blog.html';
+  
+  }
