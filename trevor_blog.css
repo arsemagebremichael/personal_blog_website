@@ -1,0 +1,653 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url('images/floral4.jpg');
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+@font-face {
+    font-family: nunito;
+src: url(fonts/Nunito-VariableFont_wght.ttf);}
+
+@font-face {
+    font-family: ku;
+    src: url(fonts/Kurale-Regular.ttf);
+}
+
+@font-face {
+    font-family: script;
+src: url(style.css);
+}
+
+@font-face {
+    font-family: poiret;
+    src: url(fonts/PoiretOne-Regular.ttf);
+}
+
+
+
+
+
+
+
+
+/*  */
+
+.body-section{
+    margin: auto;    
+}
+section{
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    margin: auto;
+    width: 50vw;
+    background-color: white;
+    border-radius: 1rem;
+    margin-bottom: 5vh;
+
+}
+.book-intro{
+    
+    background-color: whit;
+}
+.book-detail{
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    margin: auto;
+    display: flex;
+    gap: 5vw;
+    width: 50vw;
+    color: white;
+    
+    img{
+        width: 150px;
+        border: 1px solid white;
+        padding: 2vh 2vw;
+    }
+    h2{
+        padding: 0%;
+        font-family: poiret;
+        font-size: xx-large;
+    }
+    h3{
+        padding: 0%;
+        font-size: x-large;
+        font-family: nunito;
+    }
+    p{
+        font-family: nunito;
+    }
+    h6{
+        font-size: x-large;
+        font-family: ku;
+    }
+    h3, h2, h6, p{
+        margin-top: -19px;
+    }
+}
+.book-detail button {
+    cursor: pointer;
+    padding: 1vh 1vw;
+    color: #012326;
+font-size: large;}
+.book-detail button:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    
+}
+.title-intro{
+    margin-top: 2vh;
+    padding: 2vh 3vw;
+    border: 1px #1D1426 solid;
+    width: 35vw;
+    margin: 10vh auto;
+    p{
+        font-size: large;
+        font-family: nunito;
+    }
+
+}
+ .reflections{
+    font-size: 18px;
+    font-family: ku;
+    color: rgb(73, 71, 71);
+ }
+.blog{
+
+    width: 40vw;
+    margin: auto;
+    h2{
+        font-size: xxx-large;
+        font-family: poiret;
+        color: #1D1426;
+
+    }
+    p{
+        font-family: nunito;
+        color: #1D1426;
+    }
+}
+.blog-image{
+    margin: auto;
+    img{
+        margin-top: 1vh;
+        border: 1px solid #1D1426;
+        width: 20vw;
+    }
+   
+}
+.reflection{
+
+    margin: 10vh auto;
+    width: 40vw;
+    h2{
+        font-size: xxx-large;
+        font-family: poiret;
+        text-align: center;
+        color: #1D1426;;
+    }
+    p{
+        text-align: justify;
+    }
+}
+.quote{
+    width: 30vw;
+    margin: auto;
+    p{
+        font-size: 20px;
+        text-align: justify;
+        font-family: ku;
+        color: #1D1426;
+    }
+    
+}
+/*  */
+
+ hr{
+    position: relative;
+    margin: 30px auto;
+    height: 1px;
+    background-color: #B569BF;
+ }
+ .socials{
+
+    display: flex;
+    gap: 5em;
+    margin: auto;  
+     a{
+    color: black;
+    font-size: x-large;
+   }
+ 
+ }
+ 
+ .likeMyPage{
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: medium;
+    align-items: center;
+    font-family: ku;
+ }
+.fa-heart{
+    font-size: medium;
+    color: #1D1426;
+}
+.comment{
+    margin: auto;
+}
+ #comment{
+    font-size: 2em;
+    text-align: center;
+ }
+ #input{
+    margin: auto;
+    height: 5vh;
+    width: 20vw;
+    text-align: center;
+  
+ }
+ /* #submit{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1.5em;
+    width: 13em;
+    background-color: #234457;
+    border: none;
+    border-radius: 1em;
+    margin-top: 5em;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+   
+ } */
+ /* #submit:hover{
+    background-color: #A61F2B;
+    color: white
+ }
+  */
+
+
+ 
+footer {
+    padding-top: 3vh;
+    height: 35vh;
+    width: 100vw;
+    background-color: #4A3259;
+
+    a {
+        color: white;
+        font-size: small;
+    }
+
+    h2 {
+        font-size: xxx-large;
+        color: white;
+        text-align: center;
+    }
+
+}
+
+#socials {
+    width: 35vw;
+    position: absolute;
+    gap: 4%;
+    left: 50%;
+    padding-top: 33vh;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+form{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50vw;
+    padding-top: 10vh;
+    font-size: large;
+    color: white;
+}
+.join-us input{
+    margin-top: 2vh;
+    width: 25vw;
+    height: 5vh;
+}
+.join-us button{
+    cursor: pointer;
+    width: 10vw;
+    height: 5vb;
+}
+.join-us button:hover{
+    color: white;
+}
+
+ @media screen and (max-width: 750px) {
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .advert{
+        padding-top: 1vw;
+        font-size: x-small;
+        width: 100vw;
+    }
+    nav{
+        gap: 1vw;
+        img{
+            height: 30px;
+        }
+        a{
+            font-size: small;
+        }
+    }
+  
+    
+    .button:hover {
+        background-color: transparent;
+        color: #A61F2B;
+    }
+    
+    nav a:hover {
+        color: #234457;
+    }
+    
+    .nav-links {
+
+        width: 100vw;
+    }
+    
+    /*  */
+    .body-section{
+    
+        width: 80vw;
+    }
+    .profile{
+        width: 70vw;
+        font-family: nunito;
+        align-items: left;
+        display: flex;
+        margin: 0;
+        img{
+            border-radius: 50vw;
+            width: 50px;
+        }
+        gap: 1vw;
+        
+     }
+     .reflections{
+        font-size: 16px;
+        font-family: ku;
+        width: 80vw;
+        color: rgb(73, 71, 71);
+        /* width: 100%; */
+        margin: 0;
+       
+     }
+    .blog{
+        h2{
+            text-decoration: underline;
+            font-size: x-large;
+            font-family: nunito;
+            color: #A61F2B;
+    
+        }
+        p{
+            
+            font-family: ku;
+            color: rgb(48, 46, 46);
+        }
+    }
+    .blog-image{
+        width: 40vw;
+        h2{
+            font-size: x-large;
+            font-family: nunito;
+            color: #A61F2B;
+            
+        }
+        img{
+            margin: 10vw;
+            width: 70vw;
+        }
+    }
+    .blog-info{
+        h3{
+            font-size: x-large;
+            font-family: nunito;
+            color: #234457;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    .excerpt{
+        padding: 0;
+        background-color: #e3e4b8;
+        text-align: left;
+        font-family: ku;
+        p{
+
+            margin: auto;
+            width: 80vw;
+            font-family: ku;
+        }
+    }
+     .fa-brands{
+        margin: auto;
+        font-size: medium;
+        
+      
+     }
+     .hr-line{
+        position: relative;
+        max-width: 80%;
+        margin: 30px auto;
+        height: 1px;
+        margin: auto;
+        background-color: black;
+     }
+ 
+     .hr-line{
+        position: relative;
+        max-width: 100%;
+        margin: 30px auto;
+        height: 1px;
+        background-color: black;
+     }
+     
+     
+    
+     
+     .hr-line{
+        position: relative;
+        max-width: 100%;
+        margin: 30px auto;
+        height: 1px;
+        background-color: black;
+     }
+     .socials{
+
+        gap: 4em;
+       margin-left: 2.5em;
+     }
+     
+     
+     
+     
+     .new-title{
+        display: flex;
+        gap: 10%;
+        text-align: center;
+        font-size: x-large;
+     
+     
+     }
+     #title{
+        text-align: center;
+        font-size: 50px;
+     }
+     .sub-title{
+        margin-top: 10%;
+     }
+     .reason{
+        border: 3px solid;
+        margin-top: 7em;
+     }
+     .blog{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 200;
+      
+    }
+    .blog p{
+        font-size: 15px;
+        font-style: italic;
+     }
+     
+     
+     .likeOurPage{
+        display: flex;
+        justify-content: space-between;
+        font-size: medium;
+        align-items: center;
+        font-family: ku;
+     }
+     .likeOurPage a{
+        text-decoration: none;
+        color: #A61F2B;
+        font-size: small;
+     }
+     .likeOurPage a :hover{
+        background-color: orange;
+        cursor: pointer;
+     }
+     #comment{
+        font-size: 1em;
+        text-align: center;
+     }
+     #input{
+    width: 80%;
+        text-align: center;
+        padding: 2em;
+      
+     }
+     #submit{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1.5em;
+        width: 13em;
+        background-color: #234457;
+        border: none;
+        border-radius: 1em;
+        margin-top: 9em;
+        text-align: center;
+        cursor: pointer;
+        color: white;
+        
+       
+     }
+     #submit:hover{
+        background-color: #A61F2B;
+        color: white
+     }
+     
+    
+    
+     
+    footer {
+        padding-top: 3vh;
+        height: 40vh;
+        width: 100vw;
+        background-color: #17242b;
+    
+        a {
+            color: white;
+            font-size: x-small;
+        }
+    
+        h2 {
+            font-size: x-large;
+            color: white;
+            text-align: center;
+        }
+    
+    }
+    
+    #socials {
+        width: 100%;
+        position: absolute;
+        padding-top: 33vh;
+        left: 50vw;
+        transform: translate(-50%, -50%);
+        color: white;
+        display: flex;
+        align-items: center;
+        font-size: small;
+        
+    }
+    
+    form{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50vw;
+        padding-top: 10vh;
+        font-size: large;
+        color: white;
+    }
+    .join-us input{
+        margin-top: 2vh;
+        width: 25vw;
+        height: 5vh;
+    }
+    .join-us button{
+        cursor: pointer;
+        width: 13vw;
+        height: 5vb;
+    }
+    .join-us button:hover{
+        background-color: #234457;
+        color: white;
+    }}
+    @media (min-width: 751px) and (max-width: 999px)  {
+ .body-section{
+    width: 70vw;
+ }
+ .blog-info{
+    p{
+        width: 59vw;
+    }
+ }
+  
+        .advert{
+            height: 6vh;
+          }
+        
+          .blog-image{
+img{
+    width: 70vw;
+}
+
+          }
+          .excerpt{
+            p{
+                width: 60vw;
+            }
+          }
+            .socials{
+                margin-left: 5em;
+            }
+            footer{
+                height: 45vh;
+            }
+            #socials{
+                font-size: small;
+            }
+            form{
+                position: absolute;
+                transform: translate(-50%, -50%);
+                left: 50vw;
+                padding-top: 20vh;
+                font-size: large;
+                color: white;
+            }
+            input{
+                margin-top: 1vh;
+            }
+            #submit{
+                margin-top: 20vh;
+            }
+            #socials{
+        
+                font-size: small;
+                padding-top: 40vh;
+            }
+
+            
+ }
+
+   
+ @media (min-width: 1000px) and (max-width: 1300px)  {
+ 
+  .advert{
+    height: 6vh;
+  }
+
+    .socials{
+        margin-left: 2em;
+    }
+    footer{
+        height: 45vh;
+    }
+   
+    
+ }
