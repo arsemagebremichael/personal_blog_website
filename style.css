@@ -534,10 +534,7 @@ form{
         font-size: 16px;
         
     }
-    .discover_container {
-        width: ;
-        
-    }
+   
     .comment-detail{
         width: 70vw;
 
@@ -546,4 +543,10 @@ form{
         }
     }
 }
+.discover_container {
+    width: 100vw;
+    padding: 0%;
+    
+}
+
 }
