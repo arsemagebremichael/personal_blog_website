@@ -60,7 +60,7 @@ p {
 
  
 
-.advert {
+.advert{
     font-family: nunito;
     background-color: #0f0b14;
     width: 100vw;
@@ -266,7 +266,7 @@ h2 {
 }
 
 .curated_list {
-    margin: 10vh auto;
+    margin: 5vh auto;
     justify-content: space-between;
 
     h2 {
@@ -423,7 +423,7 @@ scroll-behavior: smooth;}
  
 footer {
     padding-top: 3vh;
-    height: 35vh;
+    height: 30vh;
     width: 100vw;
     background-color: #2d1a38;
 
@@ -478,7 +478,9 @@ form{
         width: 100vw;
     }
     .advert{
-       padding: 0.5%;
+
+
+       width: 100vw;
         p{
 
         font-size: small;
@@ -502,11 +504,19 @@ form{
     .welcome-text{
        
         h2{
-            width: 100vw;
-            font-size: medium;
+            width: 95vw;
+            font-size: small;
             top: 70vh;
         }
 
+    }
+    .curated_books{
+        h3{
+            font-size: large;
+        }
+        h4{
+            font-size: medium;
+        }
     }
     .curated_list {
         h2{
@@ -521,9 +531,7 @@ form{
         font-size: x-small;
     }
    
-.book_detail{
-    width: 50vw;
-}
+
 .discover {
     width: 80vw;
     margin: auto;
@@ -534,7 +542,9 @@ form{
         font-size: 16px;
         
     }
-   
+   .comment-given{
+    width: 80vw;
+   }
     .comment-detail{
         width: 70vw;
 
@@ -544,9 +554,156 @@ form{
     }
 }
 .discover_container {
+    padding: 0;
     width: 100vw;
-    padding: 0%;
+    overflow-x: hidden;
+    padding-top: 10%;
     
 }
+.discover{
+    width: 80vw;
+    p{
+        font-size: smaller;
+    }
+}
+.curated_list{
+    p{
+        font-size: x-small;
+    }
+}
 
+.curated_books{
+    h2{
+    }
+    h3{
+        font-size: large;
+    }
+    h4{
+        font-size: medium;
+    }
+}
+.book_detail{
+    height: 30vh;
+    width: 40vw;
+    margin: auto;
+    img{
+        margin-left: 10vw;
+        height: 30vw;
+    }
+    h3{
+        font-size: large;
+    }
+    h4{
+        font-size: medium;
+    }
+   
+}
+.comment-detail{
+    width: 80vw;
+    p{
+        font-size: medium;
+    }
+
+}
+footer{
+    h2{
+        font-size: x-large;
+    }
+    label{
+        padding-top: 3vh;
+        font-size: medium;
+        font-family: ku;
+    }
+}
+#socials{
+    width: 80vw;
+
+    padding-top: 40vh;
+    p{
+        font-size: x-small;
+    }
+}
+
+}
+@media (min-width: 751px) and (max-width: 999px){
+    .welcome{
+        padding-top: 10vh;
+        h1{
+            font-size: xx-large;
+        }
+    }
+    .welcome-text {
+        font-size: small;
+        width: 80vw;
+    }
+    .book_detail{
+        height: 30vh;
+        width: 40vw;
+        margin: auto;
+        img{
+            margin-left: 10vw;
+            height: 30vw;
+        }
+        h3{
+            font-size: large;
+        }
+        h4{
+            font-size: medium;
+        }
+       
+    }
+    .comment-detail{
+        width: 80vw;
+        p{
+            font-size: medium;
+        }
+    
+    }
+    .discover{
+        width: 70vw;
+    }
+    footer{
+        padding-bottom: 0%;
+
+        h2{
+            font-size: x-large;
+        }
+        label{
+            padding-top: 3vh;
+            font-size: medium;
+            font-family: ku;
+        }
+    }
+    #socials{
+        width: 80vw;
+        padding-top: 30vh;
+        p{
+            font-size: medium;
+        }
+        
+    }
+
+}
+@media (min-width: 1000px) and (max-width: 1024px){
+    .curated_list {
+        p{
+            width: 70vw;
+        }
+    }
+    .book_detail {
+        width: 30vw;
+        img{
+            margin-left: 8vw;
+        }
+    }
+    .discover{
+        width: 70vw;
+    }
+    .comment-detail{
+        width: 60vw;
+    }
+
+#socials{
+    width: 80vw;
+}
 }
