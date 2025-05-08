@@ -3,7 +3,8 @@ body {
     margin: -0%;
     overflow-x: hidden;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -46,7 +47,8 @@ html{
         opacity: 1;
     }
 }
-.citation{
+
+.citation {
     color: #1D1426;
     margin-top: -0.2%;
     margin-left: 1%;
@@ -58,9 +60,9 @@ p {
     font-family: poppins;
 }
 
- 
 
-.advert{
+
+.advert {
     font-family: nunito;
     background-color: #0f0b14;
     width: 100vw;
@@ -77,28 +79,51 @@ nav {
     z-index: 10;
     position: fixed;
     margin: auto;
-    a{
+
+    a {
         font-family: nunito;
         text-decoration: none;
         color: #0f0b14;
-        margin-left: 5vw;
-        text-align: center;
         z-index: 2;
+
     }
-  
+
 
 }
-nav a:hover{
+
+nav a:hover {
     color: gray
 }
-.navigation{
 
+.navigation {
     background-color: white;
     padding: 1vh;
     width: 100vw;
     text-align: center;
+
+    a {
+        margin-left: 3vw;
+    }
+
+    border-bottom: 1px solid #0f0b14;
 }
 
+.logo {
+    position: absolute;
+    left: 10vw;
+    display: flex;
+    align-items: center;
+
+    img {
+        border: 1px solid #1D1426;
+        height: 30px;
+    }
+
+    p {
+        font-size: small;
+        color: #0f0b14;
+    }
+}
 
 .hero_page {
     height: 100vh;
@@ -145,12 +170,14 @@ nav a:hover{
 
 
 }
-.welcome-text{
-    a{
+
+.welcome-text {
+    a {
         font-weight: bold;
         color: white;
     }
 }
+
 .explore-now {
     position: absolute;
     top: 70%;
@@ -313,39 +340,47 @@ h2 {
 
     }
 }
-#pinterest{
-p{
-    color: #0f0b14;
+
+#pinterest {
+    p {
+        color: #0f0b14;
+    }
 }
-}
-.book_detail:hover{
+
+.book_detail:hover {
     cursor: pointer;
     background-color: #8f8297;
     border-color: transparent;
-   h3{
-    color: white;
-   }
-   h4{
-    color: white;
-   }
-   p{
-    color: white;
-   }
+
+    h3 {
+        color: white;
+    }
+
+    h4 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
 }
-h3{
+
+h3 {
     text-align: center;
     font-size: x-large;
     font-family: nunito;
     color: #1D1426;
 
 }
-h4{
+
+h4 {
     text-align: center;
     font-size: large;
     color: #0f0b14;
     font-family: poppins;
 }
-.curated_books_list{
+
+.curated_books_list {
     margin: auto;
     width: 90vw;
     justify-content: space-between;
@@ -353,15 +388,19 @@ h4{
     gap: 5vw;
     overflow-x: scroll;
     scrollbar-width: thin;
-    scrollbar-color:  #4A3259 transparent;
+    scrollbar-color: #4A3259 transparent;
 }
-.curated_books_list::-webkit-scrollbar{
+
+.curated_books_list::-webkit-scrollbar {
     width: 1vw;
-scroll-behavior: smooth;}
-.curated_books_list::-webkit-scrollbar-track{
+    scroll-behavior: smooth;
+}
+
+.curated_books_list::-webkit-scrollbar-track {
     background: #0f0b14;
 }
-.curated_books_list::-webkit-scrollbar-thumb{
+
+.curated_books_list::-webkit-scrollbar-thumb {
     background-color: transparent;
 
 }
@@ -377,55 +416,64 @@ scroll-behavior: smooth;}
 .discover {
 
     width: 40vw;
-    p{
+
+    p {
         text-align: justify;
     }
-    a{
+
+    a {
         color: white;
         font-weight: bold;
     }
 
 
 }
+
 /* comment */
-.comment-given{
-    
+.comment-given {
+    h2 {
+        color: #0f0b14;
+        text-align: center;
+        padding: 5vh;
+    }
+
     margin: auto;
 }
 
-.comment-detail{
-    background-color: rgb(173, 170, 170);
+.comment-detail {
+    background-color: rgb(238, 228, 228);
     padding: 3vh 3vw 0vw;
     margin: auto;
     margin-bottom: 5vh;
 
     width: 40vw;
     border: #1D1426 1px solid;
-    p{
+
+    p {
         padding-left: 1vw;
         color: #0f0b14;
     }
 
 }
 
-.profile{
+.profile {
     align-items: center;
     display: flex;
- 
-    img{
+
+    img {
         width: 50px;
         border-radius: 50vw;
     }
 }
 
- /* footer */
- 
- 
+/* footer */
+
+
 footer {
     padding-top: 3vh;
     height: 30vh;
     width: 100vw;
-    background-color: #2d1a38;
+    background-color: #1D1426;
 
     a {
         color: white;
@@ -452,7 +500,7 @@ footer {
     align-items: center;
 }
 
-form{
+form {
     position: absolute;
     transform: translate(-50%, -50%);
     left: 50vw;
@@ -460,250 +508,612 @@ form{
     font-size: large;
     color: white;
 }
-.join-us input{
+
+.join-us input {
     margin-top: 2vh;
     width: 25vw;
     height: 5vh;
 }
-.join-us button{
+
+.join-us button {
     cursor: pointer;
     width: 10vw;
     height: 5vb;
 }
-.join-us button:hover{
+
+.join-us button:hover {
     color: white;
 }
-@media (max-width: 750px){
-    body{
+@media (max-width: 320px)  {
+    .logo {
+        top: 0vh;
+
+        img {
+            width: 30px;
+        }
+
+    }
+
+    body {
         width: 100vw;
     }
-    .advert{
+
+    .advert {
 
 
-       width: 100vw;
-        p{
+        width: 100vw;
 
-        font-size: small;
-       }
+        p {
+
+            font-size: x-small;
+        }
     }
-    nav{
+
+    nav {
         position: fixed;
     }
-    .navigation{
-        a{
+
+    .navigation {
+        a {
+            font-size: x-small;
+        }
+
+    }
+
+    .welcome {
+        padding-top: 10vh;
+
+        h1 {
             font-size: small;
         }
-        
     }
-    .welcome{
-        padding-top: 10vh;
-        h1{
+
+    .welcome-text {
+
+        h2 {
+            width: 95vw;
+            font-size: x-small;
+            top: 70vh;
+        }
+
+    }
+
+    .curated_books {
+        h3 {
+            font-size: large;
+        }
+
+        h4 {
             font-size: medium;
         }
     }
-    .welcome-text{
-       
-        h2{
+
+    .curated_list {
+        h2 {
+            font-size: x-large;
+        }
+
+        p {
+            font-size: 16px;
+            width: 100vw;
+        }
+    }
+
+    #pinterest {
+        font-size: x-small;
+    }
+
+
+    .discover {
+        width: 80vw;
+        margin: auto;
+
+        h2 {
+            font-size: x-large;
+        }
+
+        p {
+            font-size: 16px;
+
+        }
+
+        .comment-given {
+            width: 80vw;
+        }
+
+        .comment-detail {
+            width: 70vw;
+
+            p {}
+        }
+    }
+
+    .discover_container {
+        padding: 0;
+        width: 100vw;
+        overflow-x: hidden;
+        padding-top: 10%;
+
+    }
+
+    .discover {
+        width: 80vw;
+
+        p {
+            font-size: smaller;
+        }
+    }
+
+    .curated_list {
+        p {
+            font-size: x-small;
+        }
+    }
+
+    .curated_books {
+        h2 {}
+
+        h3 {
+            font-size: large;
+        }
+
+        h4 {
+            font-size: medium;
+        }
+    }
+
+    .book_detail {
+        height: 30vh;
+        width: 40vw;
+        margin: auto;
+
+        img {
+            margin-left: 10vw;
+            height: 30vw;
+        }
+
+        h3 {
+            font-size: large;
+        }
+
+        h4 {
+            font-size: medium;
+        }
+
+    }
+.comment-given{
+    h2{
+        padding-top: 0%;
+        font-size: x-large;
+    }
+}
+    .comment-detail {
+        
+        width: 80vw;
+
+        p {
+            font-size: medium;
+        }
+
+    }
+
+    footer {
+        h2 {
+            font-size: large;
+        }
+
+        label {
+            padding-top: 10vh;
+            font-size: small;
+            font-family: ku;
+        }
+    }
+
+    #socials {
+        width: 90vw;
+
+        padding-top: 40vh;
+
+        p {
+            font-size: x-small;
+        }
+    }
+
+}
+@media (min-width: 321px) and (max-width: 750px) {
+    .logo {
+        top: 0vh;
+
+        img {
+            width: 30px;
+        }
+
+    }
+
+    body {
+        width: 100vw;
+    }
+
+    .advert {
+
+
+        width: 100vw;
+
+        p {
+
+            font-size: small;
+        }
+    }
+
+    nav {
+        position: fixed;
+    }
+
+    .navigation {
+        a {
+            font-size: small;
+        }
+
+    }
+
+    .welcome {
+        padding-top: 10vh;
+
+        h1 {
+            font-size: medium;
+        }
+    }
+
+    .welcome-text {
+
+        h2 {
             width: 95vw;
             font-size: small;
             top: 70vh;
         }
 
     }
-    .curated_books{
-        h3{
+
+    .curated_books {
+        h3 {
             font-size: large;
         }
-        h4{
+
+        h4 {
             font-size: medium;
         }
     }
+
     .curated_list {
-        h2{
+        h2 {
             font-size: x-large;
         }
-        p{
+
+        p {
             font-size: 16px;
             width: 100vw;
         }
     }
-    #pinterest{
+
+    #pinterest {
         font-size: x-small;
     }
-   
 
-.discover {
-    width: 80vw;
-    margin: auto;
-    h2{
-        font-size: x-large;
-    }
-    p{
-        font-size: 16px;
-        
-    }
-   .comment-given{
-    width: 80vw;
-   }
-    .comment-detail{
-        width: 70vw;
 
-        p{
-
-        }
-    }
-}
-.discover_container {
-    padding: 0;
-    width: 100vw;
-    overflow-x: hidden;
-    padding-top: 10%;
-    
-}
-.discover{
-    width: 80vw;
-    p{
-        font-size: smaller;
-    }
-}
-.curated_list{
-    p{
-        font-size: x-small;
-    }
-}
-
-.curated_books{
-    h2{
-    }
-    h3{
-        font-size: large;
-    }
-    h4{
-        font-size: medium;
-    }
-}
-.book_detail{
-    height: 30vh;
-    width: 40vw;
-    margin: auto;
-    img{
-        margin-left: 10vw;
-        height: 30vw;
-    }
-    h3{
-        font-size: large;
-    }
-    h4{
-        font-size: medium;
-    }
-   
-}
-.comment-detail{
-    width: 80vw;
-    p{
-        font-size: medium;
-    }
-
-}
-footer{
-    h2{
-        font-size: x-large;
-    }
-    label{
-        padding-top: 3vh;
-        font-size: medium;
-        font-family: ku;
-    }
-}
-#socials{
-    width: 80vw;
-
-    padding-top: 40vh;
-    p{
-        font-size: x-small;
-    }
-}
-
-}
-@media (min-width: 751px) and (max-width: 999px){
-    .welcome{
-        padding-top: 10vh;
-        h1{
-            font-size: xx-large;
-        }
-    }
-    .welcome-text {
-        font-size: small;
+    .discover {
         width: 80vw;
+        margin: auto;
+
+        h2 {
+            font-size: x-large;
+        }
+
+        p {
+            font-size: 16px;
+
+        }
+
+        .comment-given {
+            width: 80vw;
+        }
+
+        .comment-detail {
+            width: 70vw;
+
+            p {}
+        }
     }
-    .book_detail{
+
+    .discover_container {
+        padding: 0;
+        width: 100vw;
+        overflow-x: hidden;
+        padding-top: 10%;
+
+    }
+
+    .discover {
+        width: 80vw;
+
+        p {
+            font-size: smaller;
+        }
+    }
+
+    .curated_list {
+        p {
+            font-size: x-small;
+        }
+    }
+
+    .curated_books {
+        h2 {}
+
+        h3 {
+            font-size: large;
+        }
+
+        h4 {
+            font-size: medium;
+        }
+    }
+
+    .book_detail {
         height: 30vh;
         width: 40vw;
         margin: auto;
-        img{
+
+        img {
             margin-left: 10vw;
             height: 30vw;
         }
-        h3{
+
+        h3 {
             font-size: large;
         }
-        h4{
-            font-size: medium;
-        }
-       
-    }
-    .comment-detail{
-        width: 80vw;
-        p{
-            font-size: medium;
-        }
-    
-    }
-    .discover{
-        width: 70vw;
-    }
-    footer{
-        padding-bottom: 0%;
 
-        h2{
+        h4 {
+            font-size: medium;
+        }
+
+    }
+
+    .comment-detail {
+        width: 80vw;
+
+        p {
+            font-size: medium;
+        }
+
+    }
+
+    footer {
+        h2 {
             font-size: x-large;
         }
-        label{
+
+        label {
             padding-top: 3vh;
             font-size: medium;
             font-family: ku;
         }
     }
-    #socials{
+
+    #socials {
         width: 80vw;
-        padding-top: 30vh;
-        p{
-            font-size: medium;
+
+        padding-top: 40vh;
+
+        p {
+            font-size: x-small;
         }
-        
     }
 
 }
-@media (min-width: 1000px) and (max-width: 1024px){
+
+@media (min-width: 751px) and (max-width: 900px) {
+    .logo {
+        left: 3vw;
+
+        img {
+            width: 60px;
+        }
+
+    }
+
+    body {
+        width: 100vw;
+    }
+
+    .welcome {
+        padding-top: 10vh;
+
+        h1 {
+            font-size: xx-large;
+        }
+    }
+
+    .welcome-text {
+        font-size: small;
+        width: 80vw;
+    }
+
+    .book_detail {
+        height: 30vh;
+        width: 40vw;
+        margin: auto;
+
+        img {
+            margin-left: 10vw;
+            height: 30vw;
+        }
+
+        h3 {
+            font-size: large;
+        }
+
+        h4 {
+            font-size: medium;
+        }
+
+    }
+
+    .comment-detail {
+        width: 80vw;
+
+        p {
+            font-size: medium;
+        }
+
+    }
+
+    .discover_container {
+        width: 90vw;
+    }
+
+    .discover {
+        width: 70vw;
+    }
+
+    footer {
+        padding-bottom: 0%;
+
+        h2 {
+            font-size: x-large;
+        }
+
+        label {
+            padding-top: 3vh;
+            font-size: medium;
+            font-family: ku;
+        }
+    }
+
+    #socials {
+        width: 80vw;
+        padding-top: 30vh;
+
+        p {
+            font-size: medium;
+        }
+
+    }
+
+}
+
+@media (min-width: 901px) and (max-width: 999px) {
+    .discover {
+        width: 70vw;
+    }
+    #socials {
+        width: 80vw;
+        padding-top: 30vh;
+
+        p {
+            font-size: medium;
+        }
+
+    }
+    
+
+    .discover_container {
+
+        width: 90vw;
+    }
+    .book_detail {
+        height: 30vh;
+        width: 40vw;
+        margin: auto;
+
+        img {
+            margin-left: 10vw;
+            height: 30vw;
+        }
+
+        h3 {
+            font-size: large;
+        }
+
+        h4 {
+            font-size: medium;
+        }
+
+    }
+
+
+    .welcome {
+        padding-top: 10vh;
+
+        h1 {
+            font-size: xx-large;
+        }
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1500px) {
+    .welcome-text{
+        h2{
+            font-size: medium;
+        }
+    }
+    .advert{
+        width: 100vw;
+    }
+    h1{
+        font-size: large;
+    }
+    
     .curated_list {
-        p{
+        p {
             width: 70vw;
         }
     }
+
     .book_detail {
         width: 30vw;
-        img{
+
+        img {
             margin-left: 8vw;
         }
     }
-    .discover{
+
+    .discover {
         width: 70vw;
     }
-    .comment-detail{
+
+    .comment-detail {
         width: 60vw;
     }
 
-#socials{
-    width: 80vw;
-}
+    .discover {
+        width: 60vw;
+
+        p {
+            font-size: smaller;
+        }
+    }
+    .discover_container{
+        width: 90vw;
+    }
+    footer {
+        h2 {
+            font-size: large;
+        }
+
+        label {
+            padding-top: 10vh;
+            font-size: small;
+            font-family: ku;
+        }
+    }
+
+    #socials {
+        width: 90vw;
+
+        padding-top: 40vh;
+
+        p {
+            font-size: x-small;
+        }
+    }
 }

@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    width: 100vw;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -193,6 +194,7 @@ font-size: large;}
         color: #1D1426;;
     }
     p{
+        
         text-align: justify;
     }
 }
@@ -259,6 +261,7 @@ font-size: large;}
 
  
 footer {
+    
     padding-top: 3vh;
     height: 35vh;
     width: 100vw;
@@ -275,6 +278,7 @@ footer {
         text-align: center;
     }
 
+    margin: 0;
 }
 
 #socials {
@@ -311,10 +315,46 @@ form{
     color: white;
 }
 
- @media screen and (max-width: 750px) {
+ @media (max-width: 750px) {
+    .body-section{
+        padding-top: 5vh;
+    }
+    section{
+        padding-top: 1vh;
+    }
+    .book-detail{
+        width: 95vw;
+        flex-direction: column;
+        h2{
+            font-size: large;
+            width: 90vw;
+        }
+    }
+    .book-intro{
+        h2{
+            padding-top: 5vh;
+            font-size: large;
+        }
+        h3{
+            padding-top: 3vh;
+            font-size: medium;
+            width: 70vw;
+        }
+        h6{
+            width: 50vw;
+            font-size: large;
+        }
+    }
     body{
         width: 100vw;
         overflow-x: hidden;
+    }
+    .book-content{
+        width: 90vw;
+    }
+    .title-intro{
+    width: 80vw;
+    }
     }
     .advert{
         padding-top: 1vw;
@@ -329,9 +369,7 @@ form{
         a{
             font-size: small;
         }
-    }
-  
-    
+    } 
     .button:hover {
         background-color: transparent;
         color: #A61F2B;
@@ -349,7 +387,7 @@ form{
     /*  */
     .body-section{
     
-        width: 80vw;
+        margin: 0;
     }
     .profile{
         width: 70vw;
@@ -364,27 +402,38 @@ form{
         gap: 1vw;
         
      }
-     .reflections{
+    .reflections{
         font-size: 16px;
         font-family: ku;
         width: 80vw;
         color: rgb(73, 71, 71);
         /* width: 100%; */
         margin: 0;
+        h2{
+            font-size: medium;
+        }
+        .quote{
+            width: 90vw;
+        }
        
      }
     .blog{
         h2{
             text-decoration: underline;
-            font-size: x-large;
+            font-size: large;
             font-family: nunito;
             color: #A61F2B;
     
         }
         p{
+            padding: 0;
+            width: 50vw;
             
             font-family: ku;
             color: rgb(48, 46, 46);
+        }
+        img{
+
         }
     }
     .blog-image{
@@ -396,8 +445,7 @@ form{
             
         }
         img{
-            margin: 10vw;
-            width: 70vw;
+            width: 35vw;
         }
     }
     .blog-info{
@@ -428,15 +476,10 @@ form{
         
       
      }
-     .hr-line{
-        position: relative;
-        max-width: 80%;
-        margin: 30px auto;
-        height: 1px;
-        margin: auto;
-        background-color: black;
+     .reflection{
+        margin: 1vw;
+        width: 60vw;
      }
- 
      .hr-line{
         position: relative;
         max-width: 100%;
@@ -494,47 +537,22 @@ form{
         font-style: italic;
     }
      
-     
+     .quote{
+        h2{
+            font-size: medium;
+        }
+        width: 60vw;
+        margin: auto;
+        p{
 
-     
-     
-     
-     
-    
-    
-     
-    /* footer {
-        padding-top: 3vh;
-        height: 40vh;
-        width: 100vw;
-        background-color: #0491dd;
-    
-        a {
-            color: white;
-            font-size: x-small;
+            font-size: small;
         }
-    
-        h2 {
-            font-size: x-large;
-            color: white;
-            text-align: center;
+     }
+    footer{
+        h2{
+            font-size: large;
         }
-    
-    } */
-    
-    /* #socials {
-        width: 100%;
-        position: absolute;
-        padding-top: 33vh;
-        left: 50vw;
-        transform: translate(-50%, -50%);
-        color: white;
-        display: flex;
-        align-items: center;
-        font-size: small;
-        
-    } */
-    
+    }
     form{
         position: absolute;
         transform: translate(-50%, -50%);
@@ -553,5 +571,272 @@ form{
         width: 13vw;
         height: 5vb;
     }
+
+    #socials{
+        width: 80vw;
+        p{
+            font-size: small;
+        }
+    }
+
+@media (min-width: 751px) and (max-width: 1400px){
+    .body-section{
+        padding-top: 15vh;
+    }
     
-   
+    .book-detail{
+        width: 95vw;
+        h2{
+            font-size: large;
+            width: 50vw;
+        }
+    }
+    .book-intro{
+        h2{
+            padding-top: 5vh;
+            font-size: large;
+        }
+        h3{
+            padding-top: 3vh;
+            font-size: medium;
+            width: 70vw;
+        }
+        h6{
+            width: 50vw;
+            font-size: large;
+        }
+    }
+    body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .book-content{
+        width: 90vw;
+    }
+    .title-intro{
+    width: 80vw;
+    }
+    }
+    .advert{
+        padding-top: 1vw;
+        font-size: x-small;
+        width: 100vw;
+    }
+    nav{
+        gap: 1vw;
+        img{
+            height: 30px;
+        }
+        a{
+            font-size: small;
+        }
+    } 
+    .button:hover {
+        background-color: transparent;
+        color: #A61F2B;
+    }
+    
+    nav a:hover {
+        color: #234457;
+    }
+    
+    .nav-links {
+
+        width: 100vw;
+    }
+    
+    /*  */
+    .body-section{
+    
+        margin: 0;
+    }
+    .profile{
+        width: 70vw;
+        font-family: nunito;
+        align-items: left;
+        display: flex;
+        margin: 0;
+        img{
+            border-radius: 50vw;
+            width: 50px;
+        }
+        gap: 1vw;
+        
+     }
+    .reflections{
+        font-size: 16px;
+        font-family: ku;
+        width: 80vw;
+        color: rgb(73, 71, 71);
+        /* width: 100%; */
+        margin: 0;
+        h2{
+            font-size: medium;
+        }
+        .quote{
+            width: 90vw;
+        }
+       
+     }
+    .blog{
+        h2{
+            text-decoration: underline;
+            font-size: large;
+            font-family: nunito;
+            color: #A61F2B;
+    
+        }
+        p{
+            padding: 0;
+            width: 50vw;
+            
+            font-family: ku;
+            color: rgb(48, 46, 46);
+        }
+        img{
+
+        }
+    }
+    .blog-image{
+        width: 40vw;
+        h2{
+            font-size: x-large;
+            font-family: nunito;
+            color: #A61F2B;
+            
+        }
+        img{
+            width: 35vw;
+        }
+    }
+    .blog-info{
+        h3{
+            font-size: x-large;
+            font-family: nunito;
+            color: #234457;
+        }
+        p{
+            width: 100%;
+        }
+    }
+    .excerpt{
+        padding: 0;
+        background-color: #e3e4b8;
+        text-align: left;
+        font-family: ku;
+        p{
+
+            margin: auto;
+            width: 80vw;
+            font-family: ku;
+        }
+    }
+     .fa-brands{
+        margin: auto;
+        font-size: medium;
+        
+      
+     }
+     .reflection{
+        margin: 1vw;
+        width: 60vw;
+     }
+     .hr-line{
+        position: relative;
+        max-width: 100%;
+        margin: 30px auto;
+        height: 1px;
+        background-color: black;
+     }
+     
+     
+    
+     
+     .hr-line{
+        position: relative;
+        max-width: 100%;
+        margin: 30px auto;
+        height: 1px;
+        background-color: black;
+     }
+     .socials{
+
+        gap: 4em;
+       margin-left: 2.5em;
+     }
+     
+     
+     
+     
+     .new-title{
+        display: flex;
+        gap: 10%;
+        text-align: center;
+        font-size: x-large;
+     
+     
+     }
+     #title{
+        text-align: center;
+        font-size: 50px;
+     }
+     .sub-title{
+        margin-top: 10%;
+     }
+     .reason{
+        border: 3px solid;
+        margin-top: 7em;
+     }
+     .blog{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 200;
+      
+    }
+    .blog p{
+        font-size: 15px;
+        font-style: italic;
+    }
+     
+     .quote{
+        h2{
+            font-size: medium;
+        }
+        width: 60vw;
+        margin: auto;
+        p{
+
+            font-size: small;
+        }
+     }
+    footer{
+        h2{
+            font-size: large;
+        }
+    }
+    form{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50vw;
+        padding-top: 10vh;
+        font-size: large;
+        color: white;
+    }
+    .join-us input{
+        margin-top: 2vh;
+        width: 25vw;
+        height: 5vh;
+    }
+    .join-us button{
+        cursor: pointer;
+        width: 13vw;
+        height: 5vb;
+    }
+
+    #socials{
+        width: 80vw;
+        p{
+            font-size: small;
+        }
+    }}
+
